@@ -1,0 +1,37 @@
+.filme-principal {
+    font-size: 1.3rem;
+    background-image: linear-gradient(to right, var(--preto) 35%, transparent),
+        url('../img/the-evil-dead-firstt.jpg');
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.filme-principal .titulo {
+    margin-top: 5%;
+    font-size: 3.8rem;
+}
+
+.filme-principal .descricao {
+    margin-top: 2%;
+    margin-bottom: 40px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+
+.box-filme:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    height:320px;
+}

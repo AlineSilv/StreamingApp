@@ -1,0 +1,108 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+html{
+    height: 100vh;
+}
+body {
+    background: var(--preto);
+    color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+
+body::-webkit-scrollbar {
+    width:7px;
+    height:3px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #212122;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #ababcc;
+    border-radius: 20px;
+}
+
+#tespis-logo{
+    font-family: 'Bodoni Moda', serif;
+    color: white;
+    font-size: 3.5rem;
+}
+
+header .horror{
+    padding-bottom: -15px;
+    padding-right:76%;
+}
+
+header nav a {
+    font-family: 'Bodoni Moda', serif;
+    text-decoration: none;
+    font-size:18px;
+    color: var(--branco);
+    margin-right: 15px;
+    
+}
+header nav a:hover {
+    color: var(--cinza);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.container {
+    margin-left: 20px;
+}
+
+.carrosel-popular {
+    margin-top: 5px;
+}
+
+.carrosel h3{
+    font-size: 2.0rem;
+    margin: 0px 20px 15px 20px;
+}
+
+footer {
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cinza);
+}
+
+.link {
+    padding: 50px;
+  }
+  
+.sub-links ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+    color: var(--cinza);
+    text-decoration: none;
+}
+
+.sub-links a:hover {
+    color: var(--branco);
+    text-decoration: underline;
+}
+
+.logos a{
+    padding: 10px;
+}
+
+.logo {
+    color: var(--cinza);
+    margin-bottom:25px;
+}
