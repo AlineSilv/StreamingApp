@@ -1,8 +1,8 @@
-#:movie_camera: Téspis Streaming Service
-:speech_balloon: -minha videoteca, uma seleção extensa e pessoal de filmes.
+#:movie_camera: Téspis Streaming Service <br/>
+:speech_balloon: -minha videoteca, uma seleção extensa e pessoal de filmes. <br/>
 
 :grey_exclamation: O projeto ainda está em andamento, (mas pode ser visualizado o procedimento do código e atualizações na minha rede do Linkedin) atualmente
-o site conta com uma página de usuário e login.
+o site conta com uma página de usuário e login.<br/>
 
 
 
