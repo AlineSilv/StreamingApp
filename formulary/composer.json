@@ -1,0 +1,17 @@
+{
+    "name": "aline/registerform",
+    "autoload": {
+        "psr-4": { 
+            "Theop\\Fullphp\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlineSilv",
+            "email": "alinealv.silv@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
