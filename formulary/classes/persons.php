@@ -1,10 +1,10 @@
 <?php
 
-namespace Theop\Fullphp;
-use Theop\Fullphp\searchdata;
-use Theop\Fullphp\Register;
-use Theop\Fullphp\excludeperson;
-use Theop\Fullphp\UpdatePerson;
+namespace Aline\formulary;
+use Aline\formulary\searchdata;
+use Aline\formulary\Register;
+use Aline\formulary\excludeperson;
+use Aline\formulary\UpdatePerson;
 
 
 // Class - Classes de Conexão com construtores, 6 funções.

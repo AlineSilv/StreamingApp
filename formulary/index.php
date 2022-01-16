@@ -1,7 +1,7 @@
 <?php
 
-use Theop\Fullphp\emailsend;
-use Theop\Fullphp\persons;
+use Aline\formulary\emailsend;
+use Aline\formulary\persons;
 
 
 //inejção do arquivo de classes de conexão.
@@ -41,7 +41,7 @@ $class=new Persons("persons", "localhost", "root", "");
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="form/min.js"></script>
+
 
 
 <!--<script>

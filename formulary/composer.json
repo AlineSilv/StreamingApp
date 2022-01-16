@@ -1,8 +1,8 @@
 {
-    "name": "aline/registerform",
+    "name": "aline/formulary",
     "autoload": {
         "psr-4": { 
-            "Theop\\Fullphp\\": "src"
+            "Aline\\formulary\\": "src"
         }
     },
     "authors": [
