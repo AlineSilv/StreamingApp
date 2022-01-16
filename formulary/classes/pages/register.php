@@ -1,3 +1,6 @@
+<?php
+use use Aline\formulary\persons;
+?>
 <!-- TABLE MEMBERS -->
 <section style="display: flex; flex-direction:row; justfy-content:center; background-color:white">
 
