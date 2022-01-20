@@ -13,7 +13,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/src/emailsend.php';
 //use fullphp\classes;   //diretório emailsend.php
 
- function disparate(){
+/* function disparate(){
 $email = new emailsend();
 
 $email->add(
@@ -31,7 +31,7 @@ $email->add(
     $email->error()->getMessage();
   }
 
-}
+}*/
 //inejção da classe de conexão, class Person.
 //parâmetros da conexão com valores de campo do db.
 $class=new Persons("persons", "localhost", "root", "");

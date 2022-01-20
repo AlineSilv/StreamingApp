@@ -1,5 +1,5 @@
 {
-    "name": "aline/formulary",
+    "name": "alinesilv/téspis",
     "autoload": {
         "psr-4": { 
             "Aline\\formulary\\": "src"
