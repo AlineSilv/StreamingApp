@@ -1,7 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
 <?php
 use use Aline\formulary\persons;
 ?>
 <!-- TABLE MEMBERS -->
+<body>
 <section style="display: flex; flex-direction:row; justfy-content:center; background-color:white">
 
 <table class="table">
@@ -94,3 +99,6 @@ if(count($data) >0){
 
 
 </section>
+
+</body>
+</html>
