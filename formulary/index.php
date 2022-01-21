@@ -1,3 +1,4 @@
+
 <?php
 
 use Aline\formulary\emailsend;
@@ -11,27 +12,7 @@ require_once 'classes/persons.php';
 //autoload composer
 require_once __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/src/emailsend.php';
-//use fullphp\classes;   //diretório emailsend.php
 
-/* function disparate(){
-$email = new emailsend();
-
-$email->add(
-  "You have an important mail", 
-  "<h1> Your register was alredy maded!</h1> <p> Congratulations <3 .</p>", 
-  "Aline",
-  "alinealv.silv@gmail.com")->send();
-  if(!$email->error()){
-   // header('Location: '.index.php);//login.php
-   echo"<script>alert('your register was maded');</script>";
-    return true;
-
-  }
-  else{
-    $email->error()->getMessage();
-  }
-
-}*/
 //inejção da classe de conexão, class Person.
 //parâmetros da conexão com valores de campo do db.
 $class=new Persons("persons", "localhost", "root", "");
@@ -42,26 +23,6 @@ $class=new Persons("persons", "localhost", "root", "");
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-
-
-<!--<script>
-$.ajax({
-    method:"POST",
-    url:"cadastro.php",
-    data:{
-        nome:"Cleide"
-        email:"cleide@uol.com.br"
-    },
-    beforeSend:function(){
-        $("#resultado").html("Espera, estamos enviando..");
-    }
-})
-.done(function(msg){
-    $("#resultado").html(msg);
-})
-.fail(function(jqXHR, textStatus,msg)){
-    alert(msg)
-}
 </script>-->
 <!DOCTYPE html>
 <html lang="en">
@@ -247,5 +208,26 @@ $.ajax({
 
 
 </footer>
+<!--//use fullphp\classes;   //diretório emailsend.php
+
+/* function disparate(){
+$email = new emailsend();
+
+$email->add(
+  "You have an important mail", 
+  "<h1> Your register was alredy maded!</h1> <p> Congratulations <3 .</p>", 
+  "Aline",
+  "alinealv.silv@gmail.com")->send();
+  if(!$email->error()){
+   // header('Location: '.index.php);//login.php
+   echo"<script>alert('your register was maded');</script>";
+    return true;
+
+  }
+  else{
+    $email->error()->getMessage();
+  }
+
+}*/-->
 
 </html>
