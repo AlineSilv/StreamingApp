@@ -3,7 +3,8 @@
 ob_start();
 session_start();
 use League\OAuth2\Client\Provider\Google;
-require_once __DIR__ . '\vendor\autoload.php';
+require_once __DIR__ . '\login-google\vendor\autoload.php';
+
 
 if (empty($_SESSION["userLogin"])){
     /**
@@ -33,7 +34,7 @@ if (empty($_SESSION["userLogin"])){
     header(string: "Location:".GOOGLE["redirectUri"]);
     die;
     }
-    echo"<a title='Logar com Google' href='{$authUrl}'>Google Login</a>";
+    //echo"<a title='Logar com Google' href='{$authUrl}'>Google Login</a>";
 }
 
 else{
@@ -72,7 +73,12 @@ ob_end_flush();
       <input type="email" placeholder="Email" />
       <input type="password" placeholder="Password" />
       </div>
-      <a href="#">Login With Google</a>
+    <div class="google" style= "display:flex; flex-direction:column; align-items:center;">
+      <?php 
+      echo"<a title='Logar com Google' href='{$authUrl}'>Google Login</a>";
+      ?>
+      </div>
+      
       <div class="butto">
       <button><a href="./user/index.html">Sign In</a></button>
       <a href="#">Forgot your password?</a>

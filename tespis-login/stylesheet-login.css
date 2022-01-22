@@ -55,6 +55,12 @@
   
   }
 
+  .google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   a{
     font-family: 'roboto', sans-serif;
     margin: 20px auto;
