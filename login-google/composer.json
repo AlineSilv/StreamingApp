@@ -1,0 +1,17 @@
+{
+    "name": "aline/login-google",
+    "autoload": {
+        "psr-4": {
+            "Aline\\LoginGoogle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aline Silva",
+            "email": "alinealv.silv@gmail.com"
+        }
+    ],
+    "require": {
+        "league/oauth2-google": "^4.0"
+    }
+}
