@@ -1,8 +1,11 @@
 <?php
 use Aline\formulary\persons;
 use Aline\formulary\searchdata;
-use Aline\formulary\Register;
-require_once 'C:\xampp\htdocs\dev\formulary\classes\persons.php'
+use Aline\formulary\register;
+require_once 'C:\xampp\htdocs\dev\tespis\formulary\classes\register.php';
+require 'C:\xampp\htdocs\dev\tespis\formulary\classes\persons.php';
+
+
 ?>
 <DOCTYPE html>
     <head>
@@ -94,7 +97,6 @@ if(count($data) >0){
     $class->excludeperson($id);
     //não tem header location
   }
-  
   ?>
   <tbody>
     <tr>
@@ -116,11 +118,6 @@ if(count($data) >0){
     </tr>
   </tbody>
 </table>
-
-
 </section>
 </body>
-
-
-
 </html>
