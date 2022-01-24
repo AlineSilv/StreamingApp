@@ -55,12 +55,6 @@
   
   }
 
-  .google{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   a{
     font-family: 'roboto', sans-serif;
     margin: 20px auto;
@@ -76,30 +70,3 @@
     cursor: pointer;
 }
 
-body::-webkit-scrollbar {
-  width:7px;
-  height:3px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #212122;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #ababcc;
-  border-radius: 20px;
-}
-
-.modal::-webkit-scrollbar {
-  width:7px;
-  height:2px;
-}
-
-.modal::-webkit-scrollbar-track {
-  background: #212122;
-}
-
-.modal::-webkit-scrollbar-thumb {
-  background-color: #ababcc;
-  border-radius: 20px;
-}
