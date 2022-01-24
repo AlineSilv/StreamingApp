@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <script defer src="/user/js/owl/script.js"></script>
     <title>Téspis</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./style/styles.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
@@ -55,16 +58,17 @@
         <div class="carrosel carrosel-popular">
             <h3>Cine Mudo: 20'</h3>
             <div class="owl-carousel owl-theme">
-                <div class="item"><img class="box-filme"src="./img/20'/dr-caligari.jpg" alt=" Capa de O Gabinete do Dr. Caligari" title="O Gabinete do Dr. Caligari"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/haxan.jpg" alt="Capa de Haxan" title="Haxan"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/the-hands-of-orlac-1924.jpg" alt="Capa de The Hands Of Orlac" title="The Hands Of Orlac"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/the-phantom-of-the-opera-1925.jpg" alt="Capa de The Phantom Of The Opera" title="The Phantom Of The Opera"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/the-man-who-laughs.jpg" alt="Capa de The Man Who Laughs" title="The Man Who Laughs"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/the-monster-1925.jpg" alt="Capa de The Monster" title="The Monster"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/the-bells-1926.jpg" alt="Capa de The Bells" title="The Bells"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/the_magician_1926.jpg" alt="Capa de The Magician" title="The Magician"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/the-phantom-carriage-1921.jpg" alt="Capa de The Phantom Carriage" title="The Phantom Carriage"></div>
-                <div class="item"><img class="box-filme"src="./img/20'/der-golem-wie-er-in-die-welt-kam-1920-.jpg" alt="Capa de Der Golem" title="Der Golem"></div>
+                
+                <div class="item"><a data-modal-target="#modal-1"><img class="box-filme"src="./img/20'/dr-caligari.jpg" alt=" Capa de O Gabinete do Dr. Caligari" title="O Gabinete do Dr. Caligari"></a></div>
+                <div class="item"><a data-modal-target="#modal-2"><img class="box-filme"src="./img/20'/haxan.jpg" alt="Capa de Haxan" title="Haxan"></a></div>
+                <div class="item"><a data-modal-target="#modal-3"><img class="box-filme"src="./img/20'/the-hands-of-orlac-1924.jpg" alt="Capa de The Hands Of Orlac" title="The Hands Of Orlac"></a></div>
+                <div class="item"><a data-modal-target="#modal-4"><img class="box-filme"src="./img/20'/the-phantom-of-the-opera-1925.jpg" alt="Capa de The Phantom Of The Opera" title="The Phantom Of The Opera"></a></div>
+                <div class="item"><a data-modal-target="#modal-5"><img class="box-filme"src="./img/20'/the-man-who-laughs.jpg" alt="Capa de The Man Who Laughs" title="The Man Who Laughs"></a></div>
+                <div class="item"><a data-modal-target="#modal-6"><img class="box-filme"src="./img/20'/the-monster-1925.jpg" alt="Capa de The Monster" title="The Monster"></a></div>
+                <div class="item"><a data-modal-target="#modal-7"><img class="box-filme"src="./img/20'/the-bells-1926.jpg" alt="Capa de The Bells" title="The Bells"></a></div>
+                <div class="item"><a data-modal-target="#modal-8"><img class="box-filme"src="./img/20'/the_magician_1926.jpg" alt="Capa de The Magician" title="The Magician"></a></div>
+                <div class="item"><a data-modal-target="#modal-9"><img class="box-filme"src="./img/20'/the-phantom-carriage-1921.jpg" alt="Capa de The Phantom Carriage" title="The Phantom Carriage"></a></div>
+                <div class="item"><a data-modal-target="#modal-10"><img class="box-filme"src="./img/20'/der-golem-wie-er-in-die-welt-kam-1920-.jpg" alt="Capa de Der Golem" title="Der Golem"></a></div>
                 <div class="item"><img class="box-filme"src="./img/20'/die-büchse-der-pandora-1929.jpg" alt="Capa de Die Buchse der Pandora" title=" Die Buchse der Pandora"></div>
                 <div class="item"><img class="box-filme"src="./img/20'/drakula-halála-1921.jpg" alt="Capa de Drakula Halála" title=" Drakula Halála"></div>
                 <div class="item"><img class="box-filme"src="./img/20'/he-who-gets-slapped-1924.jpg" alt="Capa de He Who Gets Slapped" title="He Who Gets Slapped"></div>
@@ -250,6 +254,251 @@
               </ul>
             </div>
           </section>
+
+          <!---->
+          <div class="modal" id="modal-1">
+            <div class="modal-header">
+              <div class="title">O Gabinete do Dr. Caligari</div> 
+              <div><img src="img/star-review.png" width="20px"> <img src="img/star-review.png" width="20px"> <img src="img/star-review.png" width="20px"> <img src="img/star-review.png" width="20px"> <img src="img/star-review.png" width="20px"></div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="header-info">
+              <table>
+                <tr>
+              <th><img src="img/12-old.png" width="20px"></th> 
+              <td>Não recomendado para menores de doze anos.</td>
+              </tr>
+              <tr>
+              <th><img src="img/director.png" width="25px"></th> 
+              <td>Robert Wiene.</td>
+              </tr>
+            </table>
+            </div>
+            <img src="img/info-O-Gabinete-do-Dr-Caligari.jpg" width="100%" height="500px">
+            <table class="movie">
+              <tr>
+                  <th>Título Original:</th>
+                  <td> Cabinet Des Dr. Caligari, Das.</td>
+              </tr>
+              <tr>
+                  <th>Direção:</th>
+                  <td>Robert Wiene.</td>
+                </tr>
+                <tr>
+                  <th>Elenco:</th>
+                  <td>Werner Krauss, Conrad Veidt, Friedrich Feher.</td>
+                </tr>
+                <tr>
+                  <th>Ano de Produção:</th>
+                  <td>1920.</td>
+                </tr>
+                <tr>
+                  <th>País:</th>
+                  <td>Alemanha.</td>
+                </tr>
+                <tr>
+                  <th>Duração:</th>
+                  <td>77 minutos.</td>
+              </tr>
+          </table>
+        
+          <hr>
+            <div class="modal-body">
+              <img src="img/citation.png" width="40px" style="display: flex; align-items: flex-start;">
+              Em um pequeno vilarejo da fronteira holandesa, um misterioso hipnotizador, Dr. Caligari, chega acompanhado do 
+              sonâmbulo Cesare que, supostamente, estaria adormecido por 23 anos. À noite, Cesare perambula pela cidade, 
+              concretizando as previsões funestas do seu mestre, o Dr. Caligari.
+              No gabinete do hipnotizador dr. Caligari, o sonâmbulo Cesare faz previsões que se concretizam misteriosamente. 
+              Uma das obras mais importantes do expressionismo alemão, o filme de Robert Wiene é um marco para o cinema da Alemanha 
+              e mudou a sétima arte para sempre. <br>
+              <img src="img/citation.png" width="40px" style="margin-left: 570px;">
+            </div>
+            <div id="play">
+            <iframe width="420" height="560px" src="https://www.youtube.com/embed/IAtpxqajFak"></iframe>
+            <i class="fas fa-info-circle"><a style="text-decoration: none; color: gray; padding-top: 10px;" href="https://www.youtube.com/watch?v=KUbTAn620rU">Onde assistir?</a></i>  
+          </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+          <div class="modal" id="modal-2">
+            <div class="modal-header">
+              <div class="title">Haxan</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <img src="" width="" height="">
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+            <div id="play">                                                       <!--watch?=v - embed/-->
+                <iframe width="420px" height="560px" src="https://www.youtube.com/embed/ltDAAu7uEjw"></iframe>
+                </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+          <div class="modal" id="modal-3">
+            <div class="modal-header">
+              <div class="title">Example</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+
+          <div class="modal" id="modal-4">
+            <div class="modal-header">
+              <div class="title">Example</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+
+          <div class="modal" id="modal-5">
+            <div class="modal-header">
+              <div class="title">Example</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+
+          <div class="modal" id="modal-6">
+            <div class="modal-header">
+              <div class="title">Example</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+
+          <div class="modal" id="modal-7">
+            <div class="modal-header">
+              <div class="title">Example</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+
+          <div class="modal" id="modal-8">
+            <div class="modal-header">
+              <div class="title">Example</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+
+          <div class="modal" id="modal-9">
+            <div class="modal-header">
+              <div class="title">Example</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+
+          <div class="modal" id="modal-10">
+            <div class="modal-header">
+              <div class="title">Example</div>
+              <button style="color:gray;" data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio
+               debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, 
+               consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem 
+               at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus 
+               tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem 
+               quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <!---->
+
+
+
+
+
 
 
         <footer>

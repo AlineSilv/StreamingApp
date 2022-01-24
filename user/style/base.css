@@ -24,6 +24,20 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
 }
 
+.modal::-webkit-scrollbar {
+    width:7px;
+    height:2px;
+}
+  
+.modal::-webkit-scrollbar-track {
+    background: #212122;
+}
+  
+.modal::-webkit-scrollbar-thumb {
+    background-color: #ababcc;
+    border-radius: 20px;
+}
+
 #tespis-logo{
     font-family: 'Bodoni Moda', serif;
     color: white;
