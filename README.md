@@ -1,7 +1,7 @@
 <h1>:movie_camera: <strong>Téspis Streaming Service</strong></h1> <br/>
 <h3>:speech_balloon: -minha videoteca, uma seleção extensa e pessoal de filmes.</h3> <br/>
 
-:grey_exclamation: "O projeto ainda está em andamento, (mas pode ser visualizado o procedimento do código e atualizações na minha rede do Linkedin) atualmente
+:grey_exclamation: "O projeto teve seu andamento pausado, (mas pode ser visualizado o procedimento do código e atualizações na minha rede do Linkedin) atualmente
 o site conta com uma página de usuário e login."<br/>
 
 
